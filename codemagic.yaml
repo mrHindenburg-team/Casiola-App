@@ -8,7 +8,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.RocksssInApp.app
+        bundle_identifier: com.CasiolaApp.app
       vars:
         BUNDLE_ID: "com.CasiolaApp.app"
         XCODE_PROJECT: "Casiola App.xcodeproj" # <-- Xcode project
