@@ -14,7 +14,6 @@ struct ContentView: View {
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            // Reserve space at the bottom so content never hides behind the bar
             .safeAreaInset(edge: .bottom) { Color.clear.frame(height: 72) }
 
             CustomTabBar(selectedTab: $selectedTab)
